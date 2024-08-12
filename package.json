@@ -15,6 +15,7 @@
     "expo": "~51.0.26",
     "expo-constants": "~16.0.2",
     "expo-haptics": "~13.0.1",
+    "expo-image-picker": "~15.0.7",
     "expo-linear-gradient": "~13.0.2",
     "expo-linking": "~6.3.1",
     "expo-router": "~3.5.21",
