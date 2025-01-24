@@ -7,11 +7,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.expokadi.plantly"
@@ -46,6 +41,18 @@
               "backgroundColor": "#ffffff"
             }
           }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#9CF089",
+          "image": "./assets/splash-image.png",
+          "dark": {
+            "image": "./assets/splash-image.png",
+            "backgroundColor": "#56A082"
+          },
+          "imageWidth": 150
         }
       ]
     ]

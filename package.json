@@ -24,6 +24,7 @@
     "expo-linking": "~7.0.4",
     "expo-quick-actions": "^2.0.0",
     "expo-router": "~4.0.17",
+    "expo-splash-screen": "~0.29.21",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
