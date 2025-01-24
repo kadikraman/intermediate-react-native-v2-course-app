@@ -42,7 +42,9 @@ export default function NewScreen() {
     }
 
     addPlant(name, Number(days), imageUri);
-    router.navigate("/");
+    // the default behaviour of navigate changed in SDK 52, so navigate will no longer go back if the screen already exists
+    // read more https://reactnavigation.org/docs/upgrading-from-6.x/#the-navigate-method-no-longer-goes-back-use-popto-instead
+    router.back();
   };
 
   const handleChooseImage = async () => {
