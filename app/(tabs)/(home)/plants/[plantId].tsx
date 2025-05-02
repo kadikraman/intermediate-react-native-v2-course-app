@@ -26,6 +26,8 @@ export default function PlantDetails() {
         waterPlant(plantId);
       }
     }
+    // we want to explicitly only do this on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
