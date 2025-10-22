@@ -18,7 +18,7 @@ export default function Layout() {
             <Link href="/new" asChild>
               <Pressable hitSlop={20} style={{ marginRight: 18 }}>
                 <AntDesign
-                  name="pluscircleo"
+                  name="plus-circle"
                   size={24}
                   color={theme.colorGreen}
                 />
