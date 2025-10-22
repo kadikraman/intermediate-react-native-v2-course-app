@@ -16,7 +16,7 @@ export default function Layout() {
           title: "Home",
           headerRight: () => (
             <Link href="/new" asChild>
-              <Pressable hitSlop={20} style={{ marginRight: 18 }}>
+              <Pressable hitSlop={20} style={{ marginHorizontal: 6 }}>
                 <AntDesign
                   name="plus-circle"
                   size={24}
@@ -31,7 +31,7 @@ export default function Layout() {
         name="plants/[plantId]"
         options={{
           title: "",
-          headerBackTitleVisible: false,
+          headerBackTitle: "",
           headerTintColor: theme.colorBlack,
         }}
       />
